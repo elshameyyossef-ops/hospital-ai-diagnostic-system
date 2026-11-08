@@ -1,0 +1,28 @@
+# --- Secrets / local databases (NEVER upload) ---
+kaggle.json
+.env
+users.db
+*.db
+
+# --- Datasets (too large / not ours to redistribute; link to Kaggle instead) ---
+*.csv
+data/
+
+# --- Training artifacts ---
+runs/
+weights/
+yolo11*.pt
+!chexdet_yolo11s_best.pt
+
+# --- Python / Jupyter noise ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+.venv/
+venv/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/

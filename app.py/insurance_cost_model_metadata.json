@@ -1,0 +1,86 @@
+{
+  "target_column": "annual_medical_cost",
+  "target_transform": "none",
+  "numeric_features": [
+    "age",
+    "bmi",
+    "visits_last_year",
+    "days_hospitalized_last_3yrs",
+    "medication_count",
+    "systolic_bp",
+    "diastolic_bp",
+    "hba1c",
+    "risk_score",
+    "claims_count",
+    "chronic_count",
+    "hypertension",
+    "diabetes",
+    "asthma",
+    "copd",
+    "cardiovascular_disease",
+    "cancer_history",
+    "kidney_disease",
+    "liver_disease",
+    "arthritis",
+    "mental_health",
+    "proc_imaging_count",
+    "proc_surgery_count",
+    "proc_consult_count",
+    "proc_lab_count",
+    "is_high_risk",
+    "had_major_procedure"
+  ],
+  "ordinal_features": [
+    "education",
+    "network_tier"
+  ],
+  "ordinal_orders": {
+    "education": [
+      "No HS",
+      "HS",
+      "Some College",
+      "Bachelors",
+      "Masters",
+      "Doctorate"
+    ],
+    "network_tier": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ]
+  },
+  "nominal_features": [
+    "sex",
+    "region",
+    "urban_rural",
+    "marital_status",
+    "employment_status",
+    "smoker",
+    "alcohol_freq",
+    "plan_type"
+  ],
+  "dropped_columns": [
+    "monthly_premium",
+    "annual_premium",
+    "total_claims_paid",
+    "avg_claim_amount",
+    "person_id",
+    "income",
+    "household_size",
+    "dependents",
+    "deductible",
+    "copay",
+    "policy_term_years",
+    "policy_changes_last_2yrs",
+    "provider_quality",
+    "ldl",
+    "proc_physio_count",
+    "hospitalizations_last_3yrs"
+  ],
+  "test_metrics": {
+    "rmse": 2840.43,
+    "mae": 1768.77,
+    "r2": 0.1801
+  }
+}

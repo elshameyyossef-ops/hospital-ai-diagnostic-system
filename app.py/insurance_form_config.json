@@ -1,0 +1,214 @@
+{
+  "categorical_options": {
+    "sex": [
+      "Female",
+      "Male",
+      "Other"
+    ],
+    "region": [
+      "Central",
+      "East",
+      "North",
+      "South",
+      "West"
+    ],
+    "urban_rural": [
+      "Rural",
+      "Suburban",
+      "Urban"
+    ],
+    "marital_status": [
+      "Divorced",
+      "Married",
+      "Single",
+      "Widowed"
+    ],
+    "employment_status": [
+      "Employed",
+      "Retired",
+      "Self-employed",
+      "Unemployed"
+    ],
+    "smoker": [
+      "Current",
+      "Former",
+      "Never"
+    ],
+    "alcohol_freq": [
+      "Daily",
+      "Not_Disclosed",
+      "Occasional",
+      "Weekly"
+    ],
+    "plan_type": [
+      "EPO",
+      "HMO",
+      "POS",
+      "PPO"
+    ]
+  },
+  "numeric_ranges": {
+    "age": {
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 47.5215,
+      "is_integer": true
+    },
+    "bmi": {
+      "min": 12.0,
+      "max": 50.4,
+      "mean": 26.990512000000003,
+      "is_integer": false
+    },
+    "visits_last_year": {
+      "min": 0.0,
+      "max": 25.0,
+      "mean": 1.92765,
+      "is_integer": true
+    },
+    "days_hospitalized_last_3yrs": {
+      "min": 0.0,
+      "max": 21.0,
+      "mean": 0.37335,
+      "is_integer": true
+    },
+    "medication_count": {
+      "min": 0.0,
+      "max": 11.0,
+      "mean": 1.23632,
+      "is_integer": true
+    },
+    "systolic_bp": {
+      "min": 61.0,
+      "max": 183.0,
+      "mean": 117.80897,
+      "is_integer": false
+    },
+    "diastolic_bp": {
+      "min": 40.0,
+      "max": 114.0,
+      "mean": 73.60477,
+      "is_integer": false
+    },
+    "hba1c": {
+      "min": 3.54,
+      "max": 11.94,
+      "mean": 5.6059678,
+      "is_integer": false
+    },
+    "risk_score": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.519849295,
+      "is_integer": false
+    },
+    "claims_count": {
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 1.62178,
+      "is_integer": true
+    },
+    "chronic_count": {
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.72472,
+      "is_integer": true
+    },
+    "hypertension": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.20345,
+      "is_integer": true
+    },
+    "diabetes": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.08593,
+      "is_integer": true
+    },
+    "asthma": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.05887,
+      "is_integer": true
+    },
+    "copd": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.03595,
+      "is_integer": true
+    },
+    "cardiovascular_disease": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.05117,
+      "is_integer": true
+    },
+    "cancer_history": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.02151,
+      "is_integer": true
+    },
+    "kidney_disease": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.01462,
+      "is_integer": true
+    },
+    "liver_disease": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.01477,
+      "is_integer": true
+    },
+    "arthritis": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.10831,
+      "is_integer": true
+    },
+    "mental_health": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.13014,
+      "is_integer": true
+    },
+    "proc_imaging_count": {
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.50853,
+      "is_integer": true
+    },
+    "proc_surgery_count": {
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.15869,
+      "is_integer": true
+    },
+    "proc_consult_count": {
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.50933,
+      "is_integer": true
+    },
+    "proc_lab_count": {
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.50914,
+      "is_integer": true
+    },
+    "is_high_risk": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.36781,
+      "is_integer": true
+    },
+    "had_major_procedure": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1697,
+      "is_integer": true
+    }
+  }
+}
