@@ -53,9 +53,11 @@ The signal in this (synthetic) dataset is weak; all models converged to a simila
 - Model: **YOLO11s** (Ultralytics), trained on a Kaggle GPU runtime.
 - Class imbalance (~16x between the most and least common class) handled with photometric-augmentation oversampling on the training set only. An earlier version that duplicated raw images produced oversized, imprecise boxes and was replaced.
 - Test metrics for the final YOLO11s run:
-- Precision: 0.5654
+-- Precision: 0.5654
 Recall:    0.3984
-mAP50:     0.4025.
+mAP50:     0.4025
+mAP50-95:  0.2188
+
 
 ### Smart Healthcare Dashboard (Power BI)
 - 800K rows / 20 columns: missing values, inconsistent categories (Gender, Department, Readmission), numbers stored as text, out-of-range values.
